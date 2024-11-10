@@ -4,10 +4,12 @@ body,html {
     overflow-x: hidden;
     width: 100%
 }
-/*/house-price-prediction-frontend.onrender.com/static/media/house.db970b2f58c18e30881f.jpg*/
+/*/house-price-prediction-frontend.onrender.com/static/media/house.db970b2f58c18e30881f.jpg
+
+*/
 .home {
-    background: linear-gradient(0deg,rgba(187,240,186,.253),rgba(218,234,216,.276)),url();
-    background-color: #c1deb3;
+    background: linear-gradient(0deg,rgba(65, 22, 132, 0.253),rgba(116, 105, 177, 0.276)),url("./modern_house.png");
+    background-color: #586aa498;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,19 +22,22 @@ body,html {
 }
 
 .greenHome {
-    background-color: #c1deb39b;
+    background-color: #75669294;
     overflow: hidden;
     padding: 2% 2% 2% 5%
 }
 
 .homeLeft {
     padding: 5%;
-    text-align: left
+    text-align: left;
+
 }
 
 .heading {
     font-family: DM Serif Display;
-    font-size: 80px
+    font-size: 80px;
+    color: black;
+    padding-left: 100px;
 }
 
 .logo {
@@ -45,8 +50,11 @@ body,html {
 }
 
 .predictLeftcol {
-    background-color: #c1deb3;
-    height: auto
+    background-color:#a9b5d59b;
+    height: auto;
+    background-image:url("./purple.jpeg") ;
+    background-size: cover;
+    background-position: center;
 }
 
 .predictLeftcol img {
@@ -266,6 +274,20 @@ h1 {
         -webkit-transform: translateY(-1000px) rotate(2turn);
         transform: translateY(-1000px) rotate(2turn)
     }
+}
+
+.prediction{
+    border:2px solid rgb(198, 209, 215) ;
+    border-radius: 20px;
+    margin: 180px 170px ;
+    padding: 30px;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    color: white;
+    position:fixed
+}
+h3,h4{
+    text-align: center;
 }
 
 /*# sourceMappingURL=main.5c05684d.css.map*/
